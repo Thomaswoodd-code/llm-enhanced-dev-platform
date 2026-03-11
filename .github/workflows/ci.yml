@@ -1,31 +1,17 @@
-name: Node.js CI
+name: Basic CI
 
 on:
   push:
-    branches:
-      - main  # 触发 CI 流程的分支是 main
+    branches: [main]
   pull_request:
-    branches:
-      - main  # 当向 main 分支提交 PR 时触发 CI 流程
+    branches: [main]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest  # 在 Ubuntu 环境下运行
-
+  check-files:
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2  # 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'  # 设置 Node.js 版本为 14
-
-    - name: Install dependencies
-      run: npm install  # 安装项目依赖
-
-    - name: Run tests
-      run: npm test  # 运行测试
-
-    - name: Build project
-      run: npm run build  # 构建项目
+      - name: Show repository files
+        run: ls -la

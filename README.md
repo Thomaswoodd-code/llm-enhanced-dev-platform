@@ -33,4 +33,4 @@
 
 ## 🧑‍💻  **开发者指南**
 
-想参与开发了解项目？[看看这里](https://github.com/Thomaswoodd-code/llm-enhanced-dev-platform/docs/developers/development.md) 
+想参与开发了解项目？[看看这里](https://github.com/Thomaswoodd-code/llm-enhanced-dev-platform/blob/main/docs/developers/development.md) 

@@ -12,7 +12,7 @@
 
 **LLM 增强的研发提效平台** 是一个快速迭代的项目，旨在通过集成 **GitLab API**、**OpenAPI** 和 **大规模语言模型（LLM）** 提升开发效率。该平台为开发者提供了一系列的自动化工具，包括自动文档解析、代码变更跟踪、以及基于 LLM 的项目知识问答功能。
 
-遇到问题？欢迎在 [Issues](https://github.com/YourUsername/llm-enhanced-dev-platform/issues) 提交反馈，我们会尽快处理！更多功能正在开发中，敬请期待！✨
+遇到问题？欢迎在 [Issues](https://github.com/Thomaswoodd-code/llm-enhanced-dev-platform/issues) 提交反馈，我们会尽快处理！更多功能正在开发中，敬请期待！✨
 
 ---
 
@@ -31,11 +31,6 @@
 
 ---
 
-## 🧑‍💻  **贡献指南**
+## 🧑‍💻  **开发者指南**
 
-想参与开发了解项目？
-
-1. **Fork 仓库** 并克隆到本地。
-2. 创建新的功能分支（例如：`feature/your-feature-name`）。
-3. 提交并推送你的更改到远程仓库。
-4. 提交 Pull Request，确保你的更改不会影响项目的稳定性。
+想参与开发了解项目？[看看这里](https://github.com/Thomaswoodd-code/llm-enhanced-dev-platform/docs/developers/development.md) 

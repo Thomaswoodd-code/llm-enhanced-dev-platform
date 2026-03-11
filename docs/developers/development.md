@@ -44,5 +44,5 @@
 
 ## 贡献规范
 
-[提供PR](https://github.com/Thomaswoodd-code/llm-enhanced-dev-platform/blob/main/docs/developers/GitHub Contribution Guidelines.md)来为项目添砖加瓦！
+[提供PR](https://github.com/Thomaswoodd-code/llm-enhanced-dev-platform/blob/main/docs/developers/GitHubContributionGuidelines.md)来为项目添砖加瓦！
 
